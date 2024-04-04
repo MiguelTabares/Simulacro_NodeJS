@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+h1 {
+    text-align: center;
+}
+
+.formContainerParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    width: 25rem; /* Ancho deseado del formulario */
+    padding: 4qrem;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+label{
+    margin: 2rem;
+}
+
+input{
+    margin: 1rem;
+}

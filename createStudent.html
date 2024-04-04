@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CREAR UN ESTUDIANTE NUEVO</h1>
+    <section class="formContainerParent">
+        <section class="formContainer">
+            <form action="http://localhost:3000/api/v1/students"  method="POST">
+                <label for="name">Ingrese el nombre del estudiante</label>
+                <input type="text" name="name">
+                <br>
+
+                <label for="lastname">Ingrese los apellidos del estudiante</label>
+                <input type="text" name="lastname">
+                <br>
+
+                <label for="age">Ingrese la edad del estudiante</label>
+                <input type="text" name="age">
+                <br>
+
+                <label for="address">Ingrese la dirección del estudiante</label>
+                <input type="text" name="address">
+                <br>
+
+                <label for="email">Ingrese el correo electrónico del estudiante</label>
+                <input type="text" name="email">
+                <br>
+
+                <button type="submit">
+                    Crear estudiante
+                </button>
+            </form>
+        </section>    
+    </section>
+</body>
+</html>
